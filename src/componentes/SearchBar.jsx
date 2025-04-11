@@ -10,9 +10,11 @@ const SearchBar = ({ onSubmit }) => {
         console.log('Necesito decirle al componente papa sobre los datos')
         onSubmit(term)
      }
+
      const handleChange = (event) => {
         setTerm(event.target.value)
      }
+     
      console.log('term', term)
 
     return (
